@@ -46,7 +46,7 @@ if os.path.exists(header_path):
     )
 
 # --- BARRA LATERAL (LOGOTIPO Y NAVEGACIÓN) ---
-logo_path = os.path.join("images", "logo_UTEM.jpg")
+logo_path = os.path.join("images", "logo_utem.jpg")
 if os.path.exists(logo_path):
     st.sidebar.image(logo_path, use_column_width=True)
 
