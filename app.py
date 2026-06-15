@@ -230,7 +230,6 @@ elif menu == "Coherencia del Planteamiento":
         st.caption("Evaluar y contrastar el desempeño predictivo del modelo analítico propuesto.")
         
     st.markdown("<br>", unsafe_allow_html=True)
-    st.caption("Nota: Cada fase metodológica se vincula en secuencia estricta para asegurar la coherencia interna requerida por la rúbrica.")
 
 elif menu == "Declaración de Uso de IA":
     st.markdown('<div class="main-title">Declaración de Uso de Inteligencia Artificial</div>', unsafe_allow_html=True)
