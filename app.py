@@ -71,7 +71,7 @@ st.sidebar.caption("Asignatura: Metodología de Investigación\nUTEM — 2026")
 # --- MÓDULOS DE LA PRESENTACIÓN ---
 
 if menu == "Portada":
-    st.markdown('<div class="main-title">Modelamiento de la demanda en festivales de música: Integración de minería de textos y modelos de grafos para la evaluación competitiva de lineups</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">Modelamiento de la dema en festivales de música: Integración de minería de textos y modelos de grafos para la evaluación competitiva de lineups</div>', unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     with col1:
@@ -102,14 +102,14 @@ if menu == "Portada":
                 st.caption("• ODS 9: Industria, Innovación y Infraestructura")
 
     st.markdown('<div class="section-header">Documentación Oficial</div>', unsafe_allow_html=True)
-    informe_path = os.path.join("anexos", "Modelamiento_de_la_demanda_en_festivales.pdf")
+    informe_path = os.path.join("anexos", "Modelamiento_de_la_dema_en_festivales.pdf")
     if os.path.exists(informe_path):
         with open(informe_path, "rb") as f:
             pdf_data = f.read()
         st.download_button(
             label="Descargar Informe Escrito Completo (PDF)",
             data=pdf_data,
-            file_name="Modelamiento_de_la_demanda_en_festivales.pdf",
+            file_name="Modelamiento_de_la_dema_en_festivales.pdf",
             mime="application/pdf"
         )
 
@@ -122,7 +122,7 @@ elif menu == "Problema de Investigación":
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('<div class="subsection-header">Contexto y Afectados</div>', unsafe_allow_html=True)
-        st.write("Afecta de manera directa a los promotores de festivales and recintos de música en vivo, quienes asumen un riesgo financiero crítico al fundamentar decisiones estratégicas de alta inversión en la intuición empírica y en marcadas asimetrías de información de mercado.")
+        st.write("Afecta de manera directa a los promotores de festivales y recintos de música en vivo, quienes asumen un riesgo financiero crítico al fundamentar decisiones estratégicas de alta inversión en la intuición empírica y en marcadas asimetrías de información de mercado.")
     with col2:
         st.markdown('<div class="subsection-header">Relevancia en Ciencia de Datos</div>', unsafe_allow_html=True)
         st.write("El comportamiento digital de los consumidores genera un flujo constante de datos no estructurados (búsquedas web, redes sociales, reseñas). La Ciencia de Datos permite procesar esta información no estructurada para descubrir los verdaderos motores de la demanda comercial, mitigando la incertidumbre del promotor al reemplazar la dependencia empírica por modelos predictivos basados en datos objetivos.")
